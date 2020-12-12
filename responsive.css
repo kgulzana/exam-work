@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 700px;
+    margin: 0 auto;
+  }
+
+  .header {
+    max-width: 768px;
+  }
+  .hero {
+    max-width: 768px;
+  }
+
+  .hero__container-menu-list {
+    font-size: 18px;
+  }
+
+   .hero__pushkin {
+    width: 280px;
+    margin-top: -208px;
+  }
+
+  .subtittle {
+    margin-left: 32px;
+  }
+
+  .content {
+    max-width: 760px;
+  }
+
+  .content__product-img {
+    margin-left: 231px;
+  }
+
+  .content__product {
+    width: 700px;
+  }
+
+  .content__product-items:hover {
+    background-color: #75757536;
+  }
+
+  .site-footer {
+    max-width: 768px;
+    max-height: 434px;
+  }
+
+  .container-footer__logo::after {
+    max-width: 730px;
+  }
+ 
+
+  .container-footer__column {
+    max-width: 730px;
+  }
+
+  .item-about__short-info {
+    width: 33%;
+    margin-right: 42px;
+  }
+
+  ul.terms {
+    width: 100px;
+  }
+
+  .info-list {
+    margin-left: 72px;
+    margin-right: 27px;
+  }
+
+  .item-about__language {
+    width: 30%;
+  }
+
+  .item-about__info {
+    width: 33%;
+    margin-left: -47px;
+  }
+
+  .terms li {
+    margin-right: 209px;
+  }
+}
+
+@media (max-width: 576px) {
+  .header-container {
+    max-width: 576px;
+  }
+
+  .header {
+    max-width: 576px;
+  }
+
+    a.header__basket-icon {
+    display: none;
+  }
+
+  a.header__register-button {
+    margin-right: 53px;
+  }
+
+  .header__right {
+    margin-top: 7px;
+  }
+
+  a.header__logo {
+    margin-top: 21px;
+    margin-left: 50px;
+  }
+
+
+  .hero {
+    max-width: 576px;
+  }
+
+  .content {
+    max-width: 576px;
+  }
+
+  .site-footer {
+    max-width: 576px;
+  }
+
+
+  .hero__pushkin {
+    margin-top: -176px;
+    margin-left: 50px;
+  }
+
+  .hero__container-menu-list {
+    font-size: 12px;
+    margin-bottom: 26px;
+    margin-left: 27px;
+  }
+
+  .content__product-img {
+    margin-left: 107px;
+  }
+
+  .container-footer__logo::after {
+    width: 557px;
+  }
+
+  .container.cards-container {
+    margin-left: 20px;
+    margin-right: 1px;
+  }
+
+  .container-footer__logo {
+    margin-left: 22px;
+  }
+
+  .item-about__globus {
+    margin-left: 114px;
+  }
+
+  .item-about__language img {
+    margin-left: 22px;
+  }
+
+  .footer__social {
+    margin-left: 23px;
+  }
+}
